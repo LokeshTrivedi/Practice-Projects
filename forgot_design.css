@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #272121;
+}
+   .forget-password {
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 80px;
+    background-color: #000000;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 12px;
+   }
+   
+   .forget-password h2 {
+    margin-top: 0;
+    color: #ff914c;
+    font-size: 14px;
+    margin-bottom: 20%;
+    text-align: left;
+   }
+   
+   .forget-password p {
+    color: #766f67;
+    text-align:left;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+    form {
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-start; */
+}
+   
+   .forget-password label {
+    display: block;
+    margin-bottom: 4px;
+   }
+   
+   .forget-password input[type="email"] {
+    width: 40%;
+    padding: 6px 10px;
+    /* margin-bottom: 15px; */
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+   }
+   
+   .forget-password input[type="submit"] {
+    background-color: #ff914c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 74%;
+   }
+   
+   .forget-password input[type="submit"]:hover {
+    opacity: 50%;
+   }
+   
+   /* .forget-password a {
+    color: #000;
+    text-decoration: none;
+   }
+   
+   .forget-password a:hover {
+    text-decoration: underline;
+   } */
+
+   img {
+    padding-top: 14%;
+    width: 60%;
+    /* height: 40%; */
+    margin-bottom: 15%;
+    /* padding-left: 21.5%; */
+    align-items: center;
+}
+
+a {
+    color: #ff914c;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 0%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signin{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer{
+    color: #766f67;
+    opacity: 70%;
+    font-size: 10px;
+    /* text-align: center; */
+    padding-left: 25px;
+    /* padding-top: 40px; */
+    padding-bottom: 0;
+    margin: 0;
+}
